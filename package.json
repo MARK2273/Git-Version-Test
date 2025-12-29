@@ -4,7 +4,8 @@
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +16,12 @@
   "homepage": "https://github.com/MARK2273/Git-Version-Test#readme",
   "description": "",
   "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^12.0.2",
+    "husky": "^9.1.7",
     "semantic-release": "^25.0.2"
   }
 }
