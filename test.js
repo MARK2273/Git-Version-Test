@@ -7,3 +7,4 @@ console.log("Feature 5");
 console.log("Feature 6");
 console.log("Test");
 console.log("Test1");
+console.log("Test2");
