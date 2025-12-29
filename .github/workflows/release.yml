@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - develop
+      - test
 
 permissions:
   contents: write # to be able to publish a GitHub release
